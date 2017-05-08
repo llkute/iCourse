@@ -1,0 +1,16 @@
+{"_id":{"$oid":"5904c3f350cedc07d0e3b802"},"subjectID":"1020042","subjectName":"Cấu trúc dữ liệu","courseList":["1020042A","1020042B"]}
+{"_id":{"$oid":"5904c49850cedc07d0e3b81a"},"subjectID":"1021293","subjectName":"Lập trình hệ thống","courseList":["1021293A","1021293B","1021293C"]}
+{"_id":{"$oid":"5904c4da50cedc07d0e3b825"},"subjectID":"1021593","subjectName":"Nguyên lý hệ điều hành","courseList":["1021593A","1021593B"]}
+{"_id":{"$oid":"590c3d95d4333f36936aedd0"},"subjectID":"1021353","subjectName":"Kiến trúc Máy tính \u0026 Vi xử lý","courseList":["1021353A","1021353B"]}
+{"_id":{"$oid":"590c3d9dd4333f36936aedd2"},"subjectID":"1020313","subjectName":"Trí tuệ nhân tạo","courseList":["1020313A","1020313B"]}
+{"_id":{"$oid":"590c3da2d4333f36936aedd4"},"subjectID":"1021383","subjectName":"Vi điều khiển","courseList":["1021383A","1021383B"]}
+{"_id":{"$oid":"590c3da5d4333f36936aedd6"},"subjectID":"1020102","subjectName":"Cơ sở dữ liệu","courseList":["1020102A","1020102B"]}
+{"_id":{"$oid":"590c3daad4333f36936aedd8"},"subjectID":"1021463","subjectName":"Công nghệ di động","courseList":["1021463A","1021463B"]}
+{"_id":{"$oid":"590c3dacd4333f36936aeddc"},"subjectID":"1021493","subjectName":"Lập trình .NET","courseList":["1021493A","1021493B"]}
+{"_id":{"$oid":"590c3dafd4333f36936aedde"},"subjectID":"1021313","subjectName":"Lập trình hướng đối tượng","courseList":["1021313A","1021313B"]}
+{"_id":{"$oid":"590c3db1d4333f36936aede2"},"subjectID":"1020113","subjectName":"Chương trình dịch","courseList":["1020113A","1020113B"]}
+{"_id":{"$oid":"590c3db4d4333f36936aede4"},"subjectID":"1021503","subjectName":"Lập trình trên Linux","courseList":["1021503A","1021503B"]}
+{"_id":{"$oid":"590c3db9d4333f36936aede6"},"subjectID":"1020252","subjectName":"Công nghệ phần mềm","courseList":["1020252A","1020252B"]}
+{"_id":{"$oid":"590c3dbed4333f36936aedea"},"subjectID":"1020353","subjectName":"Lập trình mạng","courseList":["1020353A","1020353B"]}
+{"_id":{"$oid":"590c3dc0d4333f36936aedee"},"subjectID":"1021673","subjectName":"Thị giác máy tính","courseList":["1021673A","1021673B"]}
+{"_id":{"$oid":"590c3dc2d4333f36936aedf0"},"subjectID":"1020503","subjectName":"An toàn Thông tin mạng","courseList":["1020503A","1020503B"]}

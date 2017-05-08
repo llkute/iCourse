@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Courses</title>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+        <style>
+            body        { padding-top:80px; word-wrap:break-word; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class= "row">
+                <a href="/profile"><button type="button" class="btn btn-warning">Profile</button></a>
+                <br><br>
+            </div>
+            <div class="row">
+                <h1><center>My Courses</center></h1>
+                <!-- INFORMATION -->
+                <div class="col-sm-6">
+                    <div class="well">
+                        <h3><span class="fa fa-user"></span> My Courses </h3>
+                        <% mycourses.forEach(function(course){
+                            var mycourse=JSON.parse(course);%>
+                        <form  action="/mycourses/<%=mycourse.courseID%>" method="get">
+                            <p>
+                                <strong>Subject</strong>: <%= mycourse.courseName %><br>
+                                <strong>Professor</strong>: <%= mycourse.professorName %><br>
+                                <strong>Time</strong>: <%= mycourse.time %><br>
+                            </p>
+                            <input type="submit" class="btn btn-info" value="Detail"><br>
+                            <hr>
+                        </form>
+                        <% });%>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

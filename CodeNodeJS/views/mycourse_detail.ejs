@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Course Detail</title>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+        <style>
+            body        { padding-top:80px; word-wrap:break-word; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class= "row">
+                <a href="/profile"><button type="button" class="btn btn-warning">Profile</button></a>
+                <br><br>
+            </div>
+            <div class="row">
+                <h1><center>My Course Detail</center></h1>
+                <!-- LOCAL INFORMATION -->
+                <div class="col-sm-6">
+                    <div class="well">
+                        <h3><span class="fa fa-user"></span> My Courses Detail </h3>
+                        <form  action="/delete" method="post">
+                            <p>
+                                <strong>Subject</strong>: <%= mycourse.courseName %><br>
+                                <strong>Professor</strong>: <%= mycourse.professorName %><br>
+                                <strong>Time</strong>: <%= mycourse.time %><br>
+                                <strong>Room</strong>: <%= mycourse.room %><br>
+                                <strong>Available</strong>: <%= mycourse.available %><br>
+                                <strong>Occupied</strong>: <%= mycourse.occupied %><br>
+                                <strong>Credit</strong>: <%= mycourse.credit %><br>
+                            </p>
+                            <input type="hidden" name="courseID" value="<%=mycourse.courseID%>">
+                            <input type="submit" class="btn btn-danger" name="delete" value="Delete"><br>
+                            <hr>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
